@@ -27,6 +27,7 @@ from locale_lang_bar import (  # noqa: E402
     apply_english_lang_bar,
     write_locales_index,
 )
+from markdown_fences import repair_fence_newlines, sync_fenced_blocks  # noqa: E402
 
 SKIP_DIRS = {"scripts", "locales", ".git"}
 
@@ -140,12 +141,15 @@ def fix_locale(module: Path, lang: str, dry_run: bool) -> int:
         en_raw = en_path.read_text(encoding="utf-8")
         loc_raw = loc_path.read_text(encoding="utf-8")
 
+        updated = sync_fenced_blocks(en_raw, loc_raw)
+        updated = repair_fence_newlines(updated)
+
         if en_path.name == "README.md":
-            updated = normalize_hrefs(loc_raw)
+            updated = normalize_hrefs(updated)
             updated = sync_doc_links(en_raw, updated)
             updated = apply_lang_bar(updated, lang)
         else:
-            updated = replace_links_from_english(en_raw, loc_raw)
+            updated = replace_links_from_english(en_raw, updated)
             updated = normalize_hrefs(updated)
 
         if updated != loc_raw:

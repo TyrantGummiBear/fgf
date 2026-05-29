@@ -32,6 +32,7 @@ from pathlib import Path
 SCRIPTS = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPTS))
 from locale_lang_bar import apply_lang_bar, apply_english_lang_bar, write_locales_index  # noqa: E402
+from markdown_fences import repair_fence_newlines, sync_fenced_blocks  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKIP_FILES = {"TRANSLATIONS.md"}
@@ -230,6 +231,8 @@ def main() -> None:
                 print(f"  {src.name} …", flush=True)
                 raw = src.read_text(encoding="utf-8")
                 translated = translate_markdown(raw, translator, args.delay)
+                translated = sync_fenced_blocks(raw, translated)
+                translated = repair_fence_newlines(translated)
                 if src.name == "README.md":
                     translated = apply_lang_bar(translated, lang)
                 rel_src = os.path.relpath(src, dest.parent).replace("\\", "/")

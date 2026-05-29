@@ -12,7 +12,7 @@ Fundación: Optimización de la ruta comercial de la Frontera Galáctica para la
 
 | Guía | Para |
 |-------|-----|
-| ENLACEPH0LINKPH | **Empiece aquí** — Horario diario de Opportunity vs Demerzal |
+| ENLACEPH6ENLACEPH | **Empiece aquí** — Horario diario de Opportunity vs Demerzal |
 
 ---
 
@@ -20,7 +20,7 @@ Fundación: Optimización de la ruta comercial de la Frontera Galáctica para la
 
 | Barco | Patrón |
 |------|---------|
-| **Oportunidad** | Moneda Galáctica **solo** — nunca pedidos especiales |
+| **Oportunidad** | Galactic Coin **solo** — **~11–13 h de ejecución**, plan **48 h** (~1–2/día, ~3–4/48 h) |
 | **Demerzal (demócrata)** | 4× pedidos especiales en ventana activa → Galactic Coin (o GC sin conexión/durmiendo) |
 
 ---
