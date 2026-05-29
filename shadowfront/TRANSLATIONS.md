@@ -32,7 +32,18 @@ docker compose -f docker-compose.translate.yml run --rm translate --lang es fr p
 ./scripts/translate.sh --lang es fr pt ru
 ```
 
-Output appears in `locales/es/`, `locales/fr/`, etc. Commit and push — GitHub renders them like the English files.
+Output appears in `locales/es/`, etc. Commit and push.
+
+### Repair broken links (after a bad translate run)
+
+Machine translation can break markdown link paths. Fix without re-translating:
+
+```powershell
+docker compose -f docker-compose.translate.yml run --rm fix-links
+docker compose -f docker-compose.translate.yml run --rm fix-links --lang es
+```
+
+Or: `python scripts/fix_locale_links.py --lang es fr pt ru`
 
 ### Optional: DeepL (better quality)
 

@@ -160,4 +160,4 @@ Do we have number advantage in circle?
 | Nuestra ballena | Apilar encima en círculo: más difícil de aislar |
 | Cebo | Corren → no persiguen. Te persiguen → te arrastran vía [Micro](micro.md) |
 
-Ver también: [Lucha en círculo](lucha-en-el-punto.md) · [Micro](micro.md) · [Comunicación](comunicación.md)
+Ver también: [Lucha en círculo](fight-on-the-point.md) · [Micro](micro.md) · [Comunicación](communication.md)

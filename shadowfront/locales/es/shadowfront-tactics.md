@@ -12,12 +12,12 @@ Dividido en una **serie de estrategia** para el gremio.
 
 - [Bóvedas y Guardianes] (vaults.md)
 - [Fight in the Circle](fight-on-the-point.md) — **Leer primero** (capturar círculo, números, prioridades)
-- [Rotaciones y apilamiento](rotaciones-y-apilamiento.md)
+- [Rotaciones y apilamiento](rotations-and-stacking.md)
 - [Puntos de bonificación] (bonus-points.md)
 - [Roles de escuadrón] (squad-roles.md)
 - [Flujo de coincidencia] (match-flow.md)
-- [Comunicación](comunicación.md)
-- [Errores comunes] (errores comunes.md)
+- [Comunicación](communication.md)
+- [Errores comunes](common-mistakes.md)
 - [Tácticas avanzadas] (tácticas avanzadas.md)
 - [Micro](micro.md)
 

@@ -30,9 +30,42 @@ import sys
 import time
 from pathlib import Path
 
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from locale_lang_bar import apply_lang_bar  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SKIP_FILES = {"TRANSLATIONS.md"}
 SKIP_DIRS = {"locales", "scripts"}
+
+LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+LINK_PLACEHOLDER = "LINKPH{idx}LINKPH"
+
+
+def extract_and_mask_links(content: str) -> tuple[str, list[tuple[str, str]]]:
+    """Replace markdown links with placeholders; return (masked, links)."""
+    links: list[tuple[str, str]] = []
+
+    def repl(m: re.Match) -> str:
+        links.append((m.group(1), m.group(2)))
+        return LINK_PLACEHOLDER.format(idx=len(links) - 1)
+
+    masked = LINK_RE.sub(repl, content)
+    return masked, links
+
+
+def restore_links(translated: str, links: list[tuple[str, str]], translator, delay: float) -> str:
+    """Restore links: translate label only; keep original href unchanged."""
+    out = translated
+    for idx, (text, href) in enumerate(links):
+        placeholder = LINK_PLACEHOLDER.format(idx=idx)
+        if placeholder not in out:
+            continue
+        # Link text may already be translated if placeholder broke — use original text
+        # and translate label explicitly for cleaner output
+        label = translate_text(text, translator, delay) if text.strip() else text
+        out = out.replace(placeholder, f"[{label}]({href})", 1)
+    return out
 
 
 def chunk_text(text: str, max_len: int = 4500) -> list[str]:
@@ -112,13 +145,15 @@ def translate_text(text: str, translator, delay: float) -> str:
 
 
 def translate_markdown(content: str, translator, delay: float) -> str:
+    masked, links = extract_and_mask_links(content)
     pieces: list[str] = []
-    for segment, is_code in split_preserve_code_blocks(content):
+    for segment, is_code in split_preserve_code_blocks(masked):
         if is_code:
             pieces.append(segment)
         else:
             pieces.append(translate_text(segment, translator, delay))
-    return "".join(pieces)
+    translated = "".join(pieces)
+    return restore_links(translated, links, translator, delay)
 
 
 def source_files() -> list[Path]:
@@ -177,6 +212,8 @@ def main() -> None:
             print(f"  {src.name} …", flush=True)
             raw = src.read_text(encoding="utf-8")
             translated = translate_markdown(raw, translator, args.delay)
+            if src.name == "README.md":
+                translated = apply_lang_bar(translated, lang)
             # Banner so readers know it's machine-assisted
             banner = (
                 f"> **Machine translation ({lang}).** English source: "

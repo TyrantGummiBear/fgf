@@ -104,6 +104,6 @@ Llamadas del coordinador (cuando tenemos comunicaciones):
 
 ## Resumen
 
-Su función = **bóveda y trabajo predeterminados**. [Lucha en el círculo](lucha-en-el-punto.md) = **cómo**. **Conciencia situacional** = cuándo permanecer en el rol o cuándo ser flexible: eso es lo que separa las victorias de las pérdidas.
+Su función = **bóveda y trabajo predeterminados**. [Lucha en el círculo](fight-on-the-point.md) = **cómo**. **Conciencia situacional** = cuándo permanecer en el rol o cuándo ser flexible: eso es lo que separa las victorias de las pérdidas.
 
 *Este documento se actualizará a medida que refinemos la estructura de funciones.*

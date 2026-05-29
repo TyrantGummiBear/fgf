@@ -1,6 +1,6 @@
 # ShadowFront Guild Strategy
 
-**Languages:** English · [Español](locales/es/README.md) · [Français](locales/fr/README.md) · [Português](locales/pt/README.md) · [Русский](locales/ru/README.md) · [All locales](locales/README.md) · [How to translate](TRANSLATIONS.md)
+**Languages:** **English** · [Español](locales/es/README.md) · [Français](locales/fr/README.md) · [Português](locales/pt/README.md) · [Русский](locales/ru/README.md) · [All locales](locales/README.md) · [How to translate](TRANSLATIONS.md)
 
 Quick reference hub for Foundation: Galactic Frontier **ShadowFront** matches.
 

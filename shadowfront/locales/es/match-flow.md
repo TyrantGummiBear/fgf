@@ -84,4 +84,4 @@ Prioridades por fase. En todo momento: **gana la pelea de números en el círcul
 | Medio | Peleas en círculo + bonificación de giro/negación |
 | Tarde | Negar líder o mantener el conteo ganador |
 
-Ver también: [Rotaciones y apilamiento](rotations-and-stacking.md) · [Comunicación](comunicación.md)
+Ver también: [Rotaciones y apilamiento](rotations-and-stacking.md) · [Comunicación](communication.md)

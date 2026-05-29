@@ -10,5 +10,12 @@ services:
       - .:/docs:rw
     environment:
       DEEPL_AUTH_KEY: ${DEEPL_AUTH_KEY:-}
-    # Override command when running, e.g.:
-    #   docker compose -f docker-compose.translate.yml run --rm translate --lang es fr pt ru
+
+  fix-links:
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile
+    volumes:
+      - .:/docs:rw
+    entrypoint: ["python", "/docs/scripts/fix_locale_links.py"]
+    command: []

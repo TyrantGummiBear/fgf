@@ -1,47 +1,47 @@
-> **Machine translation (es).** English source: [README.md](../../README.md). Report fixes in guild chat or a GitHub issue.
+> **Traducción automática (es).** Fuente en inglés: [README.md](../../README.md). Reporta correcciones en el chat del gremio o en GitHub.
 
 # Estrategia del gremio ShadowFront
 
-**Idiomas:** English · [Español](locales/es/README.md) · [Français](locales/fr/README.md) · [Português](locales/pt/README.md) · [Русский](locales/ru/README.md) · [Todos los locales](locales/README.md) · [Cómo traducir](TRADUCCIONES.md)
+**Idiomas:** [English](../../README.md) · **Español** · [Français](../fr/README.md) · [Português](../pt/README.md) · [Русский](../ru/README.md) · [Todos los idiomas](../README.md) · [Cómo traducir](../../TRANSLATIONS.md)
 
-Centro de referencia rápida para coincidencias de Foundation: Galactic Frontier **ShadowFront**.
+Centro de referencia rápida para partidas de **ShadowFront** en Foundation: Galactic Frontier.
 
-**Piense en ello como CoD Control.** Cada bóveda tiene un **círculo de captura**. Las flotas dentro del círculo cuentan: **la mayoría de los números ganan**, no los barcos más fuertes.
+**Piensa en ello como CoD Control.** Cada bóveda tiene un **círculo de captura**. Las flotas dentro del círculo cuentan — **gana quien tenga más números**, no los barcos más fuertes.
 
 ---
 
-## Comience aquí
+## Empieza aquí
 
-| Médico | Leer si… |
+| Doc | Léelo si… |
 |-----|----------|
-| [Bóvedas y Guardianes](vaults.md) | Diseño del mapa, guardianes, puntuación de espera |
-| [Lucha en círculo] (lucha en el punto.md) | No estás seguro de dónde luchar o a qué apuntar |
-| [Rotaciones y apilamiento](rotations-and-stacking.md) | No estás seguro de cuándo salir o agruparte |
-| [Puntos de bonificación](bonus-points.md) | El coordinador llama a Voltear/Denegar |
-| [Funciones del equipo](squad-roles.md) | Necesitas un trabajo antes del inicio del partido |
-| [Flujo de coincidencia](match-flow.md) | Quieres prioridades al principio, a la mitad o al final del juego |
-| [Comunicación](comunicación.md) | Quieres rótulos estándar |
-| [Errores comunes] (errores comunes.md) | Algo se siente mal pero no estás seguro de por qué |
-| [Tácticas avanzadas](advanced-tactics.md) | Enfocar el fuego, apilar ballenas, cebar / no perseguir |
-| [Micro](micro.md) | Leer objetivos, mover un barco: arrastrar desde el panel izquierdo |
+| [Bóvedas y guardianes](vaults.md) | Layout del mapa, guardianes, puntuación por hold |
+| [Lucha en el círculo](fight-on-the-point.md) | No sabes dónde pelear o a quién atacar |
+| [Rotaciones y stacking](rotations-and-stacking.md) | No sabes cuándo irte o agruparte |
+| [Puntos bonus](bonus-points.md) | El coordinador llama Flip / Deny |
+| [Roles de escuadra](squad-roles.md) | Necesitas un rol antes del partido |
+| [Flujo del partido](match-flow.md) | Prioridades early / mid / late |
+| [Comunicación](communication.md) | Quieres los callouts estándar |
+| [Errores comunes](common-mistakes.md) | Algo falla pero no sabes qué |
+| [Tácticas avanzadas](advanced-tactics.md) | Focus fire, stack en ballenas, bait |
+| [Micro](micro.md) | Leer targeting, mover un barco — drag desde panel izquierdo |
 
 ---
 
-## La única regla
+## La regla de oro
 
 > **Si no estás en el círculo de captura, no estás disputando el punto.**
 
-Capture es un **juego de números**. Apila el círculo, elimina a los enemigos dentro de él y mantén la cuenta.
+La captura es un **juego de números**. Apila el círculo, elimina enemigos dentro y mantén la cuenta.
 
 ---
 
-## Lista de verificación previa al partido
+## Checklist pre-partido
 
-- [] Coordinador nombrado en voz/chat
-- [] Conoces tu función (ver [Funciones del equipo](squad-roles.md))
-- [] HP insignia y tripulación lista
-- [] Has leído [Lucha en el círculo] (lucha en el punto.md)
+- [ ] Coordinador asignado en voz/chat
+- [ ] Conoces tu rol (ver [Roles de escuadra](squad-roles.md))
+- [ ] HP de flagship y crew listos
+- [ ] Has leído [Lucha en el círculo](fight-on-the-point.md)
 
 ---
 
-*Documento heredado completo: [shadowfront-tactics.md](shadowfront-tactics.md)*
+*Índice legacy: [shadowfront-tactics.md](shadowfront-tactics.md)*

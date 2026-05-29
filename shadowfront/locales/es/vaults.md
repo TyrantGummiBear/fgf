@@ -4,7 +4,7 @@
 
 Cómo funciona el mapa de ShadowFront: por qué estamos peleando y qué sucede después de una captura.
 
-Ver también: [Lucha en el círculo](lucha-en-el-punto.md) · [Puntos de bonificación](bonus-points.md)
+Ver también: [Lucha en el círculo](fight-on-the-point.md) · [Puntos de bonificación](bonus-points.md)
 
 ---
 
@@ -113,7 +113,7 @@ Deny    → Break bonus when we can't win full flip ([Bonus Points](bonus-points
 | **"Guardián caído [bóveda]"** | Captura abierta: círculo de pila ahora |
 | **"Mantener grande"** | Prioridad en puntos de retención de grandes saltos |
 
-Lista completa: [Comunicación](comunicación.md)
+Lista completa: [Comunicación](communication.md)
 
 ---
 
