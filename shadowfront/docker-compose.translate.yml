@@ -1,0 +1,14 @@
+# Translate ShadowFront docs — no local Python deps required.
+# Mounts this folder (shadowfront/) into the container; writes to locales/<lang>/.
+
+services:
+  translate:
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile
+    volumes:
+      - .:/docs:rw
+    environment:
+      DEEPL_AUTH_KEY: ${DEEPL_AUTH_KEY:-}
+    # Override command when running, e.g.:
+    #   docker compose -f docker-compose.translate.yml run --rm translate --lang es fr pt ru
