@@ -80,12 +80,8 @@ def lang_bar(current: str | None) -> str:
 
 def apply_lang_bar(content: str, current: str | None) -> str:
     bar = lang_bar(current)
-    if re.search(r"^\*\*(Languages|Idiomas|Langues|Языки):", content, re.MULTILINE):
-        return re.sub(
-            r"^\*\*(Languages|Idiomas|Langues|Языки):[^\n]*$",
-            bar,
-            content,
-            count=1,
-            flags=re.MULTILINE,
-        )
+    # Match language bar line (translated headers, optional space before colon, nbsp)
+    pattern = r"^\*\*(Languages|Idiomas|Langues|Языки)\s*:\s*[^\n]*$"
+    if re.search(pattern, content, re.MULTILINE):
+        return re.sub(pattern, bar, content, count=1, flags=re.MULTILINE)
     return re.sub(r"(^# [^\n]+\n\n)", rf"\1{bar}\n\n", content, count=1, flags=re.MULTILINE)

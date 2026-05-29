@@ -12,11 +12,11 @@ Dividido em uma **série de estratégia** para a guilda.
 
 - [Cofres e Guardiões](vaults.md)
 - [Luta no Círculo](fight-on-the-point.md) — **Leia primeiro** (círculo de captura, números, prioridades)
-- [Rotações e empilhamento] (rotações e empilhamento.md)
+- [Rotações e empilhamento](rotations-and-stacking.md)
 - [Pontos de bônus](bonus-points.md)
 - [Funções do esquadrão] (squad-roles.md)
 - [Fluxo de correspondência](match-flow.md)
-- [Comunicação](comunicação.md)
+- [Comunicação](communication.md)
 - [Erros comuns](common-mistakes.md)
 - [Táticas Avançadas](advanced-tactics.md)
 - [Micro](micro.md)

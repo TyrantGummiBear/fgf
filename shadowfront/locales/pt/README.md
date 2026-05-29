@@ -2,7 +2,7 @@
 
 # Estratégia da Guilda ShadowFront
 
-**Idiomas:** Inglês · [Español](locales/es/README.md) · [Français](locales/fr/README.md) · [Português](locales/pt/README.md) · [Русский](locales/ru/README.md) · [Todos os locais](locales/README.md) · [Como traduzir](TRADUÇÕES.md)
+**Idiomas:** [English](../../README.md) · [Español](../es/README.md) · [Français](../fr/README.md) · **Português** · [Русский](../ru/README.md) · [Todos os idiomas](../README.md) · [Como traduzir](../../TRANSLATIONS.md)
 
 Centro de referência rápida para partidas da Fundação: Galactic Frontier **ShadowFront**.
 
@@ -16,11 +16,11 @@ Centro de referência rápida para partidas da Fundação: Galactic Frontier **S
 |-----|----------|
 | [Cofres e Guardiões](vaults.md) | Layout do mapa, guardiões, pontuação |
 | [Luta no Círculo](fight-on-the-point.md) | Você não tem certeza de onde lutar ou qual alvo |
-| [Rotações e empilhamento](rotações-e-stacking.md) | Você não tem certeza de quando sair ou se agrupar |
+| [Rotações e empilhamento](rotations-and-stacking.md) | Você não tem certeza de quando sair ou se agrupar |
 | [Pontos de bônus](bonus-points.md) | Coordenador liga para Flip/Deny |
 | [Funções do esquadrão](squad-roles.md) | Você precisa de um emprego antes do início da partida |
 | [Fluxo de correspondência](match-flow.md) | Você quer prioridades no início/meio/final do jogo |
-| [Comunicação](comunicação.md) | Você deseja textos explicativos padrão |
+| [Comunicação](communication.md) | Você deseja textos explicativos padrão |
 | [Erros comuns](common-mistakes.md) | Algo parece errado, mas você não tem certeza do porquê |
 | [Táticas Avançadas](advanced-tactics.md) | Foco no fogo, pilha de baleias, isca / não persiga |
 | [Micro](micro.md) | Leia a segmentação, mova um navio – arraste do painel esquerdo |
@@ -40,7 +40,7 @@ Capture é um **jogo de números**. Empilhe o círculo, remova os inimigos dentr
 - [] Coordenador nomeado em voz/chat
 - [] Você conhece sua função (consulte [Funções do esquadrão](squad-roles.md))
 - [] HP carro-chefe e tripulação pronta
-- [] Você leu [Luta no Círculo] (fight-on-the-point.md)
+- [ ] Você leu [Luta no Círculo](fight-on-the-point.md)
 
 ---
 

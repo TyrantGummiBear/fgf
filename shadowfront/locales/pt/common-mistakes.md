@@ -126,7 +126,7 @@ Corrija isso e venceremos mais partidas — **sem** precisar de naves mais forte
 |--------|------|
 | Metas/foco errados | [Táticas Avançadas](advanced-tactics.md) |
 | Execução de micro/isca | [Micro](micro.md) |
-| Erros de empilhamento/rotação | [Rotações e empilhamento](rotações-e-stacking.md) |
+| Erros de empilhamento/rotação | [Rotações e empilhamento](rotations-and-stacking.md) |
 | Tempo de bônus | [Pontos de bônus](bonus-points.md) |
 | Trabalho pouco claro | [Funções do esquadrão](squad-roles.md) |
 | Prioridade de fase errada | [Fluxo de correspondência](match-flow.md) |

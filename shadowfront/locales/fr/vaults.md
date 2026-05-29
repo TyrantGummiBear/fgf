@@ -45,7 +45,7 @@ Après une **capture réussie**, un **Vault Guardian** apparaît pour l'équipe 
 - **La capture ne peut pas reprendre** tant que le gardien n'est **tué**
 - Pour retourner un coffre-fort, les ennemis doivent : **tuer le gardien → gagner un combat numéroté en cercle → terminer une nouvelle capture**
 
-C'est pourquoi nous ne combattons pas seulement les joueurs — voir la priorité des gardiens/tours dans [Combattre dans le cercle] (fight-on-the-point.md).
+C'est pourquoi nous ne combattons pas seulement les joueurs — voir la priorité des gardiens/tours dans [Combattez dans le cercle](fight-on-the-point.md).
 
 | Phases | Notre objectif si nous **tenons** | Notre objectif si nous **attaquons** |
 |-------|------------------------------|-------------------------------|

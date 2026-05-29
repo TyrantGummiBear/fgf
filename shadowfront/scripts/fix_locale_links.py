@@ -82,16 +82,30 @@ def source_files() -> list[Path]:
     return sorted(p for p in ROOT.glob("*.md") if p.name != "TRANSLATIONS.md")
 
 
+def fix_all_lang_bars(dry_run: bool) -> int:
+    """Apply locale-aware language picker to every README."""
+    count = 0
+    targets: list[tuple[str | None, Path]] = [(None, ROOT / "README.md")]
+    for lang_dir in sorted(LOCALES_DIR.iterdir()):
+        if lang_dir.is_dir():
+            targets.append((lang_dir.name, lang_dir / "README.md"))
+
+    for lang, path in targets:
+        if not path.exists():
+            continue
+        raw = path.read_text(encoding="utf-8")
+        updated = apply_lang_bar(raw, lang)
+        if updated != raw:
+            count += 1
+            label = lang or "en"
+            print(f"  fixed lang bar: {label}/README.md")
+            if not dry_run:
+                path.write_text(updated, encoding="utf-8")
+    return count
+
+
 def fix_english_readme(dry_run: bool) -> bool:
-    path = ROOT / "README.md"
-    raw = path.read_text(encoding="utf-8")
-    updated = apply_lang_bar(raw, None)
-    if updated != raw:
-        print("  fixed links: en/README.md (language bar)")
-        if not dry_run:
-            path.write_text(updated, encoding="utf-8")
-        return True
-    return False
+    return fix_all_lang_bars(dry_run) > 0
 
 
 def fix_locale(lang: str, dry_run: bool) -> int:
@@ -132,7 +146,7 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    if fix_english_readme(args.dry_run):
+    if fix_all_lang_bars(args.dry_run):
         pass
 
     langs = args.lang or [d.name for d in sorted(LOCALES_DIR.iterdir()) if d.is_dir()]

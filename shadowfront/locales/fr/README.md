@@ -2,7 +2,7 @@
 
 # Stratégie de guilde ShadowFront
 
-**Langues :** Anglais · [Español](locales/es/README.md) · [Français](locales/fr/README.md) · [Português](locales/pt/README.md) · [Русский](locales/ru/README.md) · [Toutes les locales](locales/README.md) · [Comment traduire](TRANSLATIONS.md)
+**Langues:** [English](../../README.md) · [Español](../es/README.md) · **Français** · [Português](../pt/README.md) · [Русский](../ru/README.md) · [Toutes les langues](../README.md) · [Traductions](../../TRANSLATIONS.md)
 
 Centre de référence rapide pour les matchs Foundation : Galactic Frontier **ShadowFront**.
 
@@ -40,7 +40,7 @@ Capture est un **jeu de nombres**. Empilez le cercle, éliminez les ennemis à l
 - [ ] Coordinateur nommé en voix/chat
 - [ ] Vous connaissez votre rôle (voir [Squad Roles](squad-roles.md))
 - [ ] HP phare et équipage prêts
-- [ ] Vous avez lu [Combattez dans le cercle] (fight-on-the-point.md)
+- [ ] Vous avez lu [Combattez dans le cercle](fight-on-the-point.md)
 
 ---
 

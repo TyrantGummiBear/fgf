@@ -160,4 +160,4 @@ Do we have number advantage in circle?
 | Nossa baleia | Empilhe em cima em círculo – mais difícil de isolar |
 | Isca | Eles correm → não perseguem. Eles perseguem você → arraste via [Micro](micro.md) |
 
-Veja também: [Luta no Círculo](fight-on-the-point.md) · [Micro](micro.md) · [Comunicação](comunicação.md)
+Veja também: [Luta no Círculo](fight-on-the-point.md) · [Micro](micro.md) · [Comunicação](communication.md)

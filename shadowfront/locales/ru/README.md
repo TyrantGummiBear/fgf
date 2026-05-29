@@ -2,7 +2,7 @@
 
 # Стратегия гильдии ShadowFront
 
-**Языки:** Английский · [Испанский](locales/es/README.md) · [Французский](locales/fr/README.md) · [Португальский](locales/pt/README.md) · [Русский](locales/ru/README.md) · [Все локали](locales/README.md) · [Как перевести](TRANSLATIONS.md)
+**Языки:** [English](../../README.md) · [Español](../es/README.md) · [Français](../fr/README.md) · [Português](../pt/README.md) · **Русский** · [Все языки](../README.md) · [Переводы](../../TRANSLATIONS.md)
 
 Краткий справочный центр по совпадениям Foundation: Galactic Frontier **ShadowFront**.
 
