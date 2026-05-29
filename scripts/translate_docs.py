@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-Batch-translate ShadowFront markdown docs for GitHub hosting.
+Batch-translate FGF markdown docs for GitHub hosting.
 
 Docker (recommended — no local install):
-  cd fgf/shadowfront
+  cd fgf
   docker compose -f docker-compose.translate.yml run --rm translate --lang es fr pt ru
 
-  # or wrappers:
-  ./scripts/translate.sh --lang es
-  ./scripts/translate.ps1 --lang es fr pt ru
+  # one module only:
+  docker compose -f docker-compose.translate.yml run --rm translate --lang es --module tradeshipping
 
 Optional DeepL (better quality):
   DEEPL_AUTH_KEY=your-key docker compose -f docker-compose.translate.yml run --rm translate --lang es --engine deepl
@@ -17,8 +16,8 @@ Local (optional):
   pip install -r scripts/requirements-translate.txt
   python scripts/translate_docs.py --lang es
 
-English source: fgf/shadowfront/*.md (this script's parent directory)
-Output:         fgf/shadowfront/locales/<lang>/*.md
+English source: fgf/<module>/*.md
+Output:         fgf/<module>/locales/<lang>/*.md
 """
 
 from __future__ import annotations
@@ -32,11 +31,11 @@ from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPTS))
-from locale_lang_bar import apply_lang_bar  # noqa: E402
+from locale_lang_bar import apply_lang_bar, apply_english_lang_bar, write_locales_index  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 SKIP_FILES = {"TRANSLATIONS.md"}
-SKIP_DIRS = {"locales", "scripts"}
+SKIP_DIRS = {"scripts", "locales", ".git"}
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 LINK_PLACEHOLDER = "LINKPH{idx}LINKPH"
@@ -61,8 +60,6 @@ def restore_links(translated: str, links: list[tuple[str, str]], translator, del
         placeholder = LINK_PLACEHOLDER.format(idx=idx)
         if placeholder not in out:
             continue
-        # Link text may already be translated if placeholder broke — use original text
-        # and translate label explicitly for cleaner output
         label = translate_text(text, translator, delay) if text.strip() else text
         out = out.replace(placeholder, f"[{label}]({href})", 1)
     return out
@@ -115,7 +112,6 @@ def get_translator(engine: str, target: str):
             print("DEEPL_AUTH_KEY not set; falling back to Google.", file=sys.stderr)
             engine = "google"
         else:
-            # DeepL codes: ES, FR, DE, PT, ZH, etc.
             deepl_target = target.upper().replace("-CN", "").replace("-TW", "")
             return DeeplTranslator(api_key=key, target=deepl_target)
 
@@ -156,21 +152,36 @@ def translate_markdown(content: str, translator, delay: float) -> str:
     return restore_links(translated, links, translator, delay)
 
 
-def source_files() -> list[Path]:
-    files = []
-    for p in sorted(ROOT.glob("*.md")):
-        if p.name not in SKIP_FILES:
-            files.append(p)
-    return files
+def doc_modules(module_filter: list[str] | None = None) -> list[Path]:
+    """Top-level folders under fgf/ that contain English *.md sources."""
+    modules: list[Path] = []
+    for p in sorted(REPO_ROOT.iterdir()):
+        if not p.is_dir() or p.name.startswith(".") or p.name in SKIP_DIRS:
+            continue
+        if not any(p.glob("*.md")):
+            continue
+        if module_filter and p.name not in module_filter:
+            continue
+        modules.append(p)
+    return modules
+
+
+def source_files(module: Path) -> list[Path]:
+    return sorted(p for p in module.glob("*.md") if p.name not in SKIP_FILES)
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Translate ShadowFront docs")
+    parser = argparse.ArgumentParser(description="Translate FGF docs")
     parser.add_argument(
         "--lang",
         nargs="+",
         required=True,
         help="Target language code(s), e.g. es fr de pt zh-CN",
+    )
+    parser.add_argument(
+        "--module",
+        nargs="+",
+        help="Doc folder(s) under fgf/, e.g. shadowfront tradeshipping (default: all)",
     )
     parser.add_argument(
         "--engine",
@@ -191,42 +202,55 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    sources = source_files()
-    if not sources:
-        print(f"No .md files in {ROOT}", file=sys.stderr)
+    modules = doc_modules(args.module)
+    if not modules:
+        label = ", ".join(args.module) if args.module else "(none found)"
+        print(f"No doc modules in {REPO_ROOT}: {label}", file=sys.stderr)
         sys.exit(1)
 
-    for lang in args.lang:
-        out_dir = ROOT / "locales" / lang
-        print(f"\n=== {lang} → {out_dir.relative_to(ROOT.parent.parent)} ===")
-        if args.dry_run:
-            for f in sources:
-                print(f"  would translate: {f.name}")
+    for module in modules:
+        sources = source_files(module)
+        if not sources:
+            print(f"\n=== skip {module.name}: no .md files ===")
             continue
 
-        out_dir.mkdir(parents=True, exist_ok=True)
-        translator = get_translator(args.engine, lang)
+        for lang in args.lang:
+            out_dir = module / "locales" / lang
+            print(f"\n=== {module.name}/{lang} → {out_dir.relative_to(REPO_ROOT)} ===")
+            if args.dry_run:
+                for f in sources:
+                    print(f"  would translate: {f.name}")
+                continue
 
-        for src in sources:
-            dest = out_dir / src.name
-            print(f"  {src.name} …", flush=True)
-            raw = src.read_text(encoding="utf-8")
-            translated = translate_markdown(raw, translator, args.delay)
-            if src.name == "README.md":
-                translated = apply_lang_bar(translated, lang)
-            # Banner so readers know it's machine-assisted
-            banner = (
-                f"> **Machine translation ({lang}).** English source: "
-                f"[{src.name}](../../{src.name}). "
-                f"Report fixes in guild chat or a GitHub issue.\n\n"
-            )
-            if not translated.startswith(">"):
-                translated = banner + translated
-            dest.write_text(translated, encoding="utf-8")
+            out_dir.mkdir(parents=True, exist_ok=True)
+            translator = get_translator(args.engine, lang)
 
-        print(f"  Done: {len(sources)} files")
+            for src in sources:
+                dest = out_dir / src.name
+                print(f"  {src.name} …", flush=True)
+                raw = src.read_text(encoding="utf-8")
+                translated = translate_markdown(raw, translator, args.delay)
+                if src.name == "README.md":
+                    translated = apply_lang_bar(translated, lang)
+                rel_src = os.path.relpath(src, dest.parent).replace("\\", "/")
+                banner = (
+                    f"> **Machine translation ({lang}).** English source: "
+                    f"[{src.name}]({rel_src}). "
+                    f"Report fixes in guild chat or a GitHub issue.\n\n"
+                )
+                if not translated.startswith(">"):
+                    translated = banner + translated
+                dest.write_text(translated, encoding="utf-8")
 
-    print("\nNext: native speaker review, update locales/README.md links, commit & push.")
+            print(f"  Done: {len(sources)} files")
+
+        if not args.dry_run:
+            if write_locales_index(module):
+                print(f"  wrote {module.name}/locales/README.md")
+            if apply_english_lang_bar(module):
+                print(f"  updated lang bar: {module.name}/README.md")
+
+    print("\nNext: native speaker review, run fix-links if needed, commit & push.")
 
 
 if __name__ == "__main__":

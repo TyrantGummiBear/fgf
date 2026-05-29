@@ -11,10 +11,10 @@ Divisé en une **série stratégique** pour la guilde.
 ## Liens rapides
 
 - [Coffres et gardiens](vaults.md)
-- [Combattez dans le cercle] (fight-on-the-point.md) — **Lire en premier** (capturer le cercle, les chiffres, les priorités)
+- [Combattez dans le cercle](fight-on-the-point.md) — **Lire en premier** (capturer le cercle, les chiffres, les priorités)
 - [Rotations et empilage](rotations-and-stacking.md)
 - [Points bonus](bonus-points.md)
-- [Rôles d'équipe] (squad-roles.md)
+- [Rôles d'équipe](squad-roles.md)
 - [Match Flow](match-flow.md)
 - [Communication](communication.md)
 - [Erreurs courantes](common-mistakes.md)

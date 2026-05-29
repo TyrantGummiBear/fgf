@@ -18,7 +18,7 @@ Le mode de contrôle vit ou meurt selon **quand empiler** et **quand faire pivot
 
 ### Comment empiler
 1. Même coffre-fort, même timing
-2. Toutes les flottes **à l'intérieur du cercle de capture** — voir [Combattre dans le cercle] (fight-on-the-point.md)
+2. Toutes les flottes **à l'intérieur du cercle de capture** — voir [Combattre dans le cercle](fight-on-the-point.md)
 3. Retirez les joueurs ennemis du cercle ; ne propagez pas les dégâts en dehors de la zone
 
 **Règle :** Cinq flottes moyennes dans le cercle ont battu une flotte forte à l'extérieur.

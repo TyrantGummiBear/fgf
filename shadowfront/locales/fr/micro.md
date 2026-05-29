@@ -2,7 +2,7 @@
 
 # Micro — Contrôle d'un seul navire
 
-Micro est la façon dont vous exécutez des appâts, des évitements de baleines et des jeux en cercle **sans déplacer toute votre pile**. Lisez d'abord [Combattez dans le cercle] (fight-on-the-point.md) – le micro est le **comment**, la logique du cercle est le **pourquoi**.
+Micro est la façon dont vous exécutez des appâts, des évitements de baleines et des jeux en cercle **sans déplacer toute votre pile**. Lisez d'abord [Combattez dans le cercle](fight-on-the-point.md) – le micro est le **comment**, la logique du cercle est le **pourquoi**.
 
 ---
 

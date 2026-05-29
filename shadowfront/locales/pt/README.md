@@ -2,7 +2,7 @@
 
 # Estratégia da Guilda ShadowFront
 
-**Idiomas:** [English](../../README.md) · [Español](../es/README.md) · [Français](../fr/README.md) · **Português** · [Русский](../ru/README.md) · [Todos os idiomas](../README.md) · [Como traduzir](../../TRANSLATIONS.md)
+**Idiomas:** [English](../../README.md) · [Español](../es/README.md) · [Français](../fr/README.md) · **Português** · [Русский](../ru/README.md) · [Todos os idiomas](../README.md) · [Como traduzir](../../../TRANSLATIONS.md)
 
 Centro de referência rápida para partidas da Fundação: Galactic Frontier **ShadowFront**.
 

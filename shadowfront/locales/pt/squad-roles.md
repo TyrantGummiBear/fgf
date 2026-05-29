@@ -1,4 +1,4 @@
-> **Machine translation (pt).** English source: [squad-roles.md](../../squad-roles.md). Report fixes in guild chat or a GitHub issue.
+> **Machine translation (pt).** English source: [squad-roles.md](bonus-points.md). Report fixes in guild chat or a GitHub issue.
 
 # Funções do esquadrão
 
@@ -28,7 +28,7 @@ Esta seção evoluirá à medida que testarmos o que funciona para nossa guilda.
 |------|-----|-----------------|
 | **Pilha/Captura** | Superam o inimigo no círculo | Jogadores inimigos **no círculo** |
 | **Início/Espera** | Continue contando com o cofre doméstico | Qualquer pessoa que entre no nosso círculo |
-| **Negar / Flexibilizar** | Quebre as janelas de bônus do inimigo | Jogadores em círculo ou somente negação — [Pontos de bônus](bonus-points.md) |
+| **Negar / Flexibilizar** | Quebre as janelas de bônus do inimigo | Jogadores em círculo ou somente negação — [Pontos de bônus](fight-on-the-point.md) |
 | **Suporte** | Reparar através de nós de Despertar Curto | Nós e depois de volta ao círculo |
 
 ---

@@ -14,7 +14,7 @@ Dividido em uma **série de estratégia** para a guilda.
 - [Luta no Círculo](fight-on-the-point.md) — **Leia primeiro** (círculo de captura, números, prioridades)
 - [Rotações e empilhamento](rotations-and-stacking.md)
 - [Pontos de bônus](bonus-points.md)
-- [Funções do esquadrão] (squad-roles.md)
+- [Funções do esquadrão](squad-roles.md)
 - [Fluxo de correspondência](match-flow.md)
 - [Comunicação](communication.md)
 - [Erros comuns](common-mistakes.md)

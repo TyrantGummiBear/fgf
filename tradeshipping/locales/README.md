@@ -1,4 +1,4 @@
-# ShadowFront docs — choose language
+# Trade Shipping docs — choose language
 
 | Language | Hub |
 |----------|-----|

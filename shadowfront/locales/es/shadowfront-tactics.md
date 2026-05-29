@@ -10,15 +10,15 @@ Dividido en una **serie de estrategia** para el gremio.
 
 ## Enlaces rápidos
 
-- [Bóvedas y Guardianes] (vaults.md)
+- [Bóvedas y Guardianes](vaults.md)
 - [Fight in the Circle](fight-on-the-point.md) — **Leer primero** (capturar círculo, números, prioridades)
 - [Rotaciones y apilamiento](rotations-and-stacking.md)
-- [Puntos de bonificación] (bonus-points.md)
-- [Roles de escuadrón] (squad-roles.md)
-- [Flujo de coincidencia] (match-flow.md)
+- [Puntos de bonificación](bonus-points.md)
+- [Roles de escuadrón](squad-roles.md)
+- [Flujo de coincidencia](match-flow.md)
 - [Comunicación](communication.md)
 - [Errores comunes](common-mistakes.md)
-- [Tácticas avanzadas] (tácticas avanzadas.md)
+- [Tácticas avanzadas](advanced-tactics.md)
 - [Micro](micro.md)
 
 ---

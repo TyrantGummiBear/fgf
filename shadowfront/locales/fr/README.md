@@ -2,7 +2,7 @@
 
 # Stratégie de guilde ShadowFront
 
-**Langues:** [English](../../README.md) · [Español](../es/README.md) · **Français** · [Português](../pt/README.md) · [Русский](../ru/README.md) · [Toutes les langues](../README.md) · [Traductions](../../TRANSLATIONS.md)
+**Langues:** [English](../../README.md) · [Español](../es/README.md) · **Français** · [Português](../pt/README.md) · [Русский](../ru/README.md) · [Toutes les langues](../README.md) · [Traductions](../../../TRANSLATIONS.md)
 
 Centre de référence rapide pour les matchs Foundation : Galactic Frontier **ShadowFront**.
 

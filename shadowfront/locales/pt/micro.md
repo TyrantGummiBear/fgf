@@ -31,7 +31,7 @@ Left panel → click/drag the ship → drop on map location → only that ship m
 | Situação | Microjogo |
 |-----------|------------|
 | **Você é o alvo** | Arraste-se para fora do círculo - caçadores de iscas fora da contagem |
-| **Baleia mirando em você, faltam números** | Arraste; deixe-os perseguir - [Evite baleia] (advanced-tactics.md) |
+| **Baleia mirando em você, faltam números** | Arraste; deixe-os perseguir - [Evite baleia](advanced-tactics.md) |
 | **O resto da pilha deve conter um círculo** | Apenas o navio isca se move; companheiros ficam no ponto |
 | **Reposicione um corpo** | Deslize em círculo ou empilhe na baleia sem deslocar todos |
 

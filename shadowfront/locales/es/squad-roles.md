@@ -1,4 +1,4 @@
-> **Machine translation (es).** English source: [squad-roles.md](../../squad-roles.md). Report fixes in guild chat or a GitHub issue.
+> **Machine translation (es).** English source: [squad-roles.md](bonus-points.md). Report fixes in guild chat or a GitHub issue.
 
 # Roles del equipo
 
@@ -28,7 +28,7 @@ Esta sección evolucionará a medida que probemos qué funciona para nuestro gre
 |------|-----|-----------------|
 | **Apilar / Capturar** | Superan en número al enemigo en el círculo | Jugadores enemigos **en el círculo** |
 | **Inicio / Espera** | Mantengamos la cuenta en la bóveda de la casa | Cualquiera que entre en nuestro círculo |
-| **Denegar / Flexionar** | Rompe las ventanas de bonificación del enemigo | Jugadores en círculo o solo para negar — [Puntos de bonificación](bonus-points.md) |
+| **Denegar / Flexionar** | Rompe las ventanas de bonificación del enemigo | Jugadores en círculo o solo para negar — [Puntos de bonificación](fight-on-the-point.md) |
 | **Soporte** | Reparación a través de nodos de Despertar Corto | Nodos, luego de regreso al círculo |
 
 ---

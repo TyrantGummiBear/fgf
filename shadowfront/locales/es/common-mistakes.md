@@ -10,7 +10,7 @@ Arregla esto y ganaremos más partidas, **sin** necesitar barcos más fuertes.
 
 **Síntoma:** Buen daño, perdiendo capturas de todos modos.
 
-**Solución:** [Lucha en el círculo] (fight-on-the-point.md): solo cuentan las flotas **dentro del círculo**.
+**Solución:** [Lucha en el círculo](fight-on-the-point.md): solo cuentan las flotas **dentro del círculo**.
 
 ---
 
@@ -26,7 +26,7 @@ Arregla esto y ganaremos más partidas, **sin** necesitar barcos más fuertes.
 
 **Síntoma:** Matamos barcos fuera de la zona; su captura sigue avanzando.
 
-**Solución:** Elimina a los jugadores enemigos **primero dentro del círculo** - **primero los HP más bajos** para reducir los números rápidamente. [Tácticas avanzadas](tácticas avanzadas.md)
+**Solución:** Elimina a los jugadores enemigos **primero dentro del círculo** - **primero los HP más bajos** para reducir los números rápidamente. [Tácticas avanzadas](advanced-tactics.md)
 
 ---
 
@@ -58,7 +58,7 @@ Arregla esto y ganaremos más partidas, **sin** necesitar barcos más fuertes.
 
 **Síntoma:** El guardián cae, los enemigos aún tienen números, recaptura instantánea.
 
-**Solución:** Elimina suficientes jugadores para que la caída del guardián nos permita **ganar** la cuenta. Consulte [Bóvedas y guardianes] (vaults.md). Excepción: **"Guardián primero"** cuando es grande entrante.
+**Solución:** Elimina suficientes jugadores para que la caída del guardián nos permita **ganar** la cuenta. Consulte [Bóvedas y guardianes](vaults.md). Excepción: **"Guardián primero"** cuando es grande entrante.
 
 ---
 
@@ -66,7 +66,7 @@ Arregla esto y ganaremos más partidas, **sin** necesitar barcos más fuertes.
 
 **Síntoma:** El enemigo corre; seguimos para matar; llevan la cuenta de los barcos que aún están dentro.
 
-**Solución:** **No persigas a los corredores**: mantén el círculo. Consulte [Tácticas avanzadas] (advanced-tactics.md).
+**Solución:** **No persigas a los corredores**: mantén el círculo. Consulte [Tácticas avanzadas](advanced-tactics.md).
 
 **Error opuesto:** Eres un cebo, pero permaneces en el círculo comiendo concentrado. **Arrastra un barco** desde el panel izquierdo: [Micro](micro.md).
 
@@ -92,7 +92,7 @@ Arregla esto y ganaremos más partidas, **sin** necesitar barcos más fuertes.
 
 **Síntoma:** Nadie gana ninguna pelea numérica.
 
-**Solución:** [Rotaciones y apilamiento] (rotations-and-stacking.md): una pila principal, una reserva en casa.
+**Solución:** [Rotaciones y apilamiento](rotations-and-stacking.md): una pila principal, una reserva en casa.
 
 ---
 

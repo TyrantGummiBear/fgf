@@ -13,7 +13,7 @@ El modo de control vive o muere dependiendo de **cuándo apilar** y **cuándo ro
 ### Cuándo apilar
 - El coordinador llama a un objetivo de salto.
 - El enemigo tiene más números en el círculo.
-- Estamos disputando una ventana de cuenta regresiva o de bonificación; consulte [Puntos de bonificación] (bonus-points.md)
+- Estamos disputando una ventana de cuenta regresiva o de bonificación; consulte [Puntos de bonificación](bonus-points.md)
 - La torre está caída (o a punto de caer) y necesitamos cuerpos en el círculo.
 
 ### Cómo apilar

@@ -2,7 +2,7 @@
 
 # Micro: control de un solo barco
 
-Micro es la forma en que ejecutas cebo, evitación de ballenas y juegos circulares **sin mover toda tu pila**. Lea primero [Fight in the Circle] (fight-on-the-point.md): micro es el **cómo**, la lógica del círculo es el **por qué**.
+Micro es la forma en que ejecutas cebo, evitación de ballenas y juegos circulares **sin mover toda tu pila**. Lea primero [Fight in the Circle](fight-on-the-point.md): micro es el **cómo**, la lógica del círculo es el **por qué**.
 
 ---
 
@@ -31,7 +31,7 @@ Left panel → click/drag the ship → drop on map location → only that ship m
 | Situación | Microjuego |
 |-----------|------------|
 | **Estás apuntado** | Salga del círculo: los cazadores de cebos están fuera de la cuenta |
-| **La ballena te apunta, nos faltan números** | Arrastrar; déjalos perseguir - [Evitar la ballena] (advanced-tactics.md) |
+| **La ballena te apunta, nos faltan números** | Arrastrar; déjalos perseguir - [Evitar la ballena](advanced-tactics.md) |
 | **El resto de la pila debe contener el círculo** | Sólo se mueve el barco cebo; compañeros de equipo se mantienen en el punto |
 | **Reposicionar un cuerpo** | Deslízate en círculo o apila sobre ballena sin mover a todos |
 

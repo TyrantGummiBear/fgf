@@ -40,7 +40,7 @@ Cuando se esté disputando un salto, apunte en este orden:
 
 Si el enemigo tiene más números en el círculo, **primero mata o expulsa a las flotas dentro del círculo**. Cada barco eliminado cambia la cuenta.
 
-**Enfoca primero el HP más bajo del círculo**: muertes más rápidas = caída de números más rápida = captura más rápida. No propagues el daño. Consulte [Tácticas avanzadas] (advanced-tactics.md) para enfocar el fuego y apilar ballenas.
+**Enfoca primero el HP más bajo del círculo**: muertes más rápidas = caída de números más rápida = captura más rápida. No propagues el daño. Consulte [Tácticas avanzadas](advanced-tactics.md) para enfocar el fuego y apilar ballenas.
 
 ### 2. Elimina suficientes enemigos para capturar al guardián.
 
@@ -92,7 +92,7 @@ La forma número uno en que perdemos bóvedas:
 
 **Regla:** Si un enemigo **abandona el círculo**, no lo sigas: mantén la cuenta. Elimina a los enemigos que todavía estén en la zona o deja ir a los corredores.
 
-**Avanzado:** Si *tú* eres el único barco que está siendo perseguido, salir **del círculo es correcto: sácalo de la cuenta para que los compañeros de equipo ganen dentro. Consulte [Tácticas avanzadas: cebo circular] (advanced-tactics.md).
+**Avanzado:** Si *tú* eres el único barco que está siendo perseguido, salir **del círculo es correcto: sácalo de la cuenta para que los compañeros de equipo ganen dentro. Consulte [Tácticas avanzadas: cebo circular](advanced-tactics.md).
 
 ---
 

@@ -45,7 +45,7 @@ Después de una **captura exitosa**, aparece un **Guardián de la bóveda** para
 - **La captura no se puede reanudar** hasta que el guardián sea **matado**
 - Para voltear una bóveda, los enemigos deben: **matar al guardián → ganar la pelea numérica en círculo → completar una nueva captura**
 
-Es por eso que no solo luchamos contra jugadores; consulta la prioridad de guardián/torre en [Fight in the Circle] (fight-on-the-point.md).
+Es por eso que no solo luchamos contra jugadores; consulta la prioridad de guardián/torre en [Fight in the Circle](fight-on-the-point.md).
 
 | Fase | Nuestro objetivo si **mantenemos** | Nuestro objetivo si **atacamos** |
 |-------|-------------------------|---------------------|

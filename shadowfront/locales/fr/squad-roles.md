@@ -56,7 +56,7 @@ Cette section évoluera au fur et à mesure que nous testerons ce qui fonctionne
 
 ## Refuser / Flex
 
-- **Flip :** Gagnez des numéros, volez des bonus - complet [priorité de combat] (fight-on-the-point.md)
+- **Flip :** Gagnez des numéros, volez des bonus - complet [priorité de combat](fight-on-the-point.md)
 - **Refuser :** Impossible de gagner la capture - interrompre le compte à rebours, empêcher le bonus, ne pas trop s'engager dans le cercle de maintien
 - Attendez l'appel du coordinateur avant de changer de mode
 

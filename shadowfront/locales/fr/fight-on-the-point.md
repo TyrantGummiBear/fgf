@@ -40,7 +40,7 @@ Lorsqu'un saut est contesté, ciblez dans cet ordre :
 
 Si l'ennemi a plus de chiffres dans le cercle, **tuez ou expulsez d'abord les flottes à l'intérieur du cercle**. Chaque navire supprimé décale le décompte.
 
-**Concentrez-vous d'abord sur les HP les plus bas du cercle** — les victoires les plus rapides = la chute de nombre la plus rapide = une capture plus rapide. Ne propagez pas les dégâts. Voir [Tactiques avancées] (advanced-tactics.md) pour concentrer le feu et l'empilement des baleines.
+**Concentrez-vous d'abord sur les HP les plus bas du cercle** — les victoires les plus rapides = la chute de nombre la plus rapide = une capture plus rapide. Ne propagez pas les dégâts. Voir [Tactiques avancées](advanced-tactics.md) pour concentrer le feu et l'empilement des baleines.
 
 ### 2. Éliminez suffisamment d'ennemis pour prendre le gardien
 
@@ -92,7 +92,7 @@ La façon n°1 de perdre des coffres-forts :
 
 **Règle :** Si un ennemi **quitte le cercle**, ne le suivez pas : maintenez le décompte. Supprimez les ennemis **toujours dans la zone** ou laissez partir les coureurs.
 
-**Avancé :** Si *vous êtes* le seul navire poursuivi, le kite **hors** du cercle est correct : retirez-les du décompte pour que les coéquipiers gagnent à l'intérieur. Voir [Tactiques avancées — Circle Bait] (advanced-tactics.md).
+**Avancé :** Si *vous êtes* le seul navire poursuivi, le kite **hors** du cercle est correct : retirez-les du décompte pour que les coéquipiers gagnent à l'intérieur. Voir [Tactiques avancées — Circle Bait](advanced-tactics.md).
 
 ---
 

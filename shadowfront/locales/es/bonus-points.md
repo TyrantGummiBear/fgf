@@ -1,4 +1,4 @@
-> **Machine translation (es).** English source: [bonus-points.md](../../bonus-points.md). Report fixes in guild chat or a GitHub issue.
+> **Machine translation (es).** English source: [bonus-points.md](fight-on-the-point.md). Report fixes in guild chat or a GitHub issue.
 
 # Puntos de bonificación de ShadowFront
 

@@ -2,7 +2,7 @@
 
 # Estrategia del gremio ShadowFront
 
-**Idiomas:** [English](../../README.md) · **Español** · [Français](../fr/README.md) · [Português](../pt/README.md) · [Русский](../ru/README.md) · [Todos los idiomas](../README.md) · [Cómo traducir](../../TRANSLATIONS.md)
+**Idiomas:** [English](../../README.md) · **Español** · [Français](../fr/README.md) · [Português](../pt/README.md) · [Русский](../ru/README.md) · [Todos los idiomas](../README.md) · [Cómo traducir](../../../TRANSLATIONS.md)
 
 Centro de referencia rápida para partidas de **ShadowFront** en Foundation: Galactic Frontier.
 

@@ -2,7 +2,7 @@
 
 # Tactiques avancées
 
-Pour les joueurs qui connaissent les bases. Lisez d'abord [Combattez dans le cercle] (fight-on-the-point.md).
+Pour les joueurs qui connaissent les bases. Lisez d'abord [Combattez dans le cercle](fight-on-the-point.md).
 
 ---
 
@@ -160,4 +160,4 @@ Do we have number advantage in circle?
 | Notre baleine | Empiler en cercle – plus difficile à isoler |
 | Appât | Ils courent → ne poursuivent pas. Ils vous poursuivent → traînez via [Micro](micro.md) |
 
-Voir aussi : [Combattez en cercle](combat-sur-le-point.md) · [Micro](micro.md) · [Communication](communication.md)
+Voir aussi : [Combattez en cercle](fight-on-the-point.md) · [Micro](micro.md) · [Communication](communication.md)

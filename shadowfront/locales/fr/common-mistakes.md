@@ -10,7 +10,7 @@ Corrigez ces problèmes et nous gagnerons plus de matchs – **sans** avoir beso
 
 **Symptôme :** Bons dégâts, perte de captures quand même.
 
-**Correction :** [Combattez dans le cercle] (fight-on-the-point.md) — seules les flottes **à l'intérieur du cercle** comptent.
+**Correction :** [Combattez dans le cercle](fight-on-the-point.md) — seules les flottes **à l'intérieur du cercle** comptent.
 
 ---
 
@@ -66,7 +66,7 @@ Corrigez ces problèmes et nous gagnerons plus de matchs – **sans** avoir beso
 
 **Symptôme :** L'ennemi court ; nous suivons pour tuer ; ils comptent les navires encore à l’intérieur.
 
-**Correction :** **Ne poursuivez pas les coureurs** : maintenez le cercle. Voir [Tactiques avancées] (advanced-tactics.md).
+**Correction :** **Ne poursuivez pas les coureurs** : maintenez le cercle. Voir [Tactiques avancées](advanced-tactics.md).
 
 **Erreur ci-contre :** Vous êtes un appât mais restez en cercle en vous concentrant sur votre alimentation. **Faites glisser un vaisseau vers l'extérieur** depuis le panneau de gauche – [Micro](micro.md).
 
