@@ -10,6 +10,7 @@ Quick reference hub for Foundation: Galactic Frontier **ShadowFront** matches.
 
 | Doc | Read if… |
 |-----|----------|
+| [Vaults & Guardians](vaults.md) | Map layout, guardians, hold scoring |
 | [Fight in the Circle](fight-on-the-point.md) | You're not sure where to fight or what to target |
 | [Rotations & Stacking](rotations-and-stacking.md) | You're unsure when to leave or group up |
 | [Bonus Points](bonus-points.md) | Coordinator calls Flip / Deny |

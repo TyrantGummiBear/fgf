@@ -40,11 +40,11 @@ If the enemy has more numbers in the circle — **kill or force out fleets insid
 
 **Focus lowest HP in the circle first** — fastest kills = fastest number drop = faster capture. Don't spread damage. See [Advanced Tactics](advanced-tactics.md) for focus fire and whale stacking.
 
-### 2. Clear enough enemies to take the tower
+### 2. Clear enough enemies to take the guardian
 
-If the tower is blocking capture, remove enough enemy players that **when the tower goes down, we win the number fight** and hold the circle.
+After capture, a **Vault Guardian** blocks re-capture until it's killed — see [Vaults & Guardians](vaults.md). Remove enough enemy players in the circle that **when the guardian goes down, we win the number fight** and hold the zone.
 
-Don't burn the tower while enemies still outnumber us inside — they'll recapture the moment it falls.
+Don't burn the guardian while enemies still outnumber us inside — they'll recapture the moment it falls.
 
 ### 3. Get our fleets into the circle
 
@@ -54,11 +54,11 @@ After kills or as kills happen, **step in**. Empty kills outside the zone don't 
 
 ## Exceptions (When Priority Changes)
 
-### Big incoming → Tower first
+### Big incoming → Guardian first
 
-If you're taking **heavy incoming** and the tower is the main threat, **tower takes priority** over chasing individual players. Drop the tower, then re-establish numbers in the circle.
+If you're taking **heavy incoming** and the **Vault Guardian** is the main threat, **guardian takes priority** over chasing individual players. Drop the guardian, then re-establish numbers in the circle.
 
-Coordinator may call **"Tower first [vault]"** when this applies.
+Coordinator may call **"Guardian first [vault]"** or **"Tower first [vault]"** when this applies.
 
 ### Can't win capture → Deny bonus only
 
@@ -115,7 +115,7 @@ Every 30 seconds:
 1. Am I inside the capture circle?
 2. Who has more numbers in the circle right now?
 3. Am I targeting enemies **in the circle** or farming outside it?
-4. Should I be on players, tower, or deny? (see priority above)
+4. Should I be on players, guardian, or deny? (see priority above)
 
 ---
 
@@ -129,7 +129,7 @@ Every 30 seconds:
 | Focus lowest HP in circle | Spread fire across targets |
 | Group focus enemy whales in circle | Trade with whale while outnumbered |
 | Stack on our whales in circle | Leave whale isolated |
-| Take tower when count allows | Burn tower while outnumbered |
+| Take guardian when count allows | Burn guardian while outnumbered |
 | Switch to deny when we can't win | Force a flip we can't hold |
 
 **Capture is a headcount game inside the circle. Play for numbers.**

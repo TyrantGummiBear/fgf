@@ -8,6 +8,7 @@ Split into a **strategy series** for the guild.
 
 ## Quick Links
 
+- [Vaults & Guardians](vaults.md)
 - [Fight in the Circle](fight-on-the-point.md) — **Read first** (capture circle, numbers, priorities)
 - [Rotations & Stacking](rotations-and-stacking.md)
 - [Bonus Points](bonus-points.md)

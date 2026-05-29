@@ -120,7 +120,7 @@ When fighting in a contested circle:
 2. **Enemy whale in the circle** — **group focus only if we have numbers**
 3. **Whale targeting you, we lack numbers** — **avoid, move, bait out** if they chase
 4. **Runners who left the circle** — ignore (don't chase)
-5. **Tower** — when big incoming or count allows ([Fight in the Circle](fight-on-the-point.md))
+5. **Vault Guardian** — when big incoming or count allows ([Vaults & Guardians](vaults.md), [Fight in the Circle](fight-on-the-point.md))
 
 After any drop, **re-scan for new lowest HP in circle**.
 

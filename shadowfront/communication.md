@@ -13,7 +13,9 @@ Short callouts only. Long messages get ignored mid-fight.
 | **"Rotate to [vault]"** | Leave, group at new vault circle |
 | **"Flip [vault]"** | Win numbers, steal bonus — [Bonus Points](bonus-points.md) |
 | **"Deny [vault]"** | Prevent bonus — don't need to hold capture |
-| **"Tower first [vault]"** | Big incoming — drop tower, then fight for count |
+| **"Guardian [vault]"** / **"Tower [vault]"** | Focus vault guardian (blocks re-capture) |
+| **"Guardian first [vault]"** / **"Tower first [vault]"** | Big incoming — drop guardian, then fight for count |
+| **"Guardian down [vault]"** | Re-capture open — stack circle now |
 | **"Need help [vault]"** | We're losing the number fight |
 | **"Nodes up [vault]"** | Grab repair nodes, back in circle |
 | **"Too late to flip"** | Deny only |
@@ -35,7 +37,7 @@ Short callouts only. Long messages get ignored mid-fight.
 | **"They have numbers [vault]"** | Enemy winning the count |
 | **"Even count [vault]"** | Contested — need one more body |
 | **"Can't hold [vault]"** | Losing count, need stack |
-| **"Tower down [vault]"** | Push numbers in now |
+| **"Tower down [vault]"** | Same as guardian down — push numbers in now |
 | **"Countdown [vault] — X left"** | Timing for flip/deny |
 | **"Baiting [vault]"** | You're dragging out — teammates hold count |
 | **"I'm targeted"** | Taking focus — may need to micro out |

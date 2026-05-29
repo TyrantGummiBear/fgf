@@ -52,11 +52,11 @@ Fix these and we win more matches — **without** needing stronger ships.
 
 ---
 
-## 7. Burning Tower While Outnumbered
+## 7. Burning Guardian While Outnumbered
 
-**Symptom:** Tower falls, enemies still have numbers, instant recapture.
+**Symptom:** Guardian falls, enemies still have numbers, instant recapture.
 
-**Fix:** Clear enough players that tower drop lets **us** win the count. Exception: **"Tower first"** when big incoming.
+**Fix:** Clear enough players that guardian drop lets **us** win the count. See [Vaults & Guardians](vaults.md). Exception: **"Guardian first"** when big incoming.
 
 ---
 
