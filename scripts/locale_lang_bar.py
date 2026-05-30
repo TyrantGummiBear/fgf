@@ -17,6 +17,7 @@ LOCALE_CODES = frozenset(code for _, code in LOCALES if code)
 MODULE_DISPLAY: dict[str, str] = {
     "shadowfront": "ShadowFront docs",
     "tradeshipping": "Trade Shipping docs",
+    "pvp": "General PvP docs",
 }
 
 META: dict[str | None, dict[str, str]] = {

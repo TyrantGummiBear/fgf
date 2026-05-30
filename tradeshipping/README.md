@@ -18,7 +18,7 @@ Foundation: Galactic Frontier trade route optimization for guild flagships.
 
 | Ship | Pattern |
 |------|---------|
-| **Opportunity** | Galactic Coin **only** — **~11–13h runs**, plan **48h** (~1–2/day, ~3–4/48h) |
+| **Opportunity** | Galactic Coin **only** — **load bonus favors GC** (~11–13h runs, plan **48h**) |
 | **Demerzal (Dem)** | 4× special orders in active window → Galactic Coin (or GC while offline/sleeping) |
 
 ---

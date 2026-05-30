@@ -13,10 +13,20 @@ Norme de guilde pour les expéditions commerciales **Opportunity** et **Demerzal
 **L'opportunité ne devrait utiliser que Galactic Coin (GC).**
 
 - Ne pas attribuer de commandes spéciales à l'opportunité
+- **Le bonus de chargement de l'opportunité favorise GC** — utiliser exclusivement Galactic Coin est la manière privilégiée d'utiliser ce vaisseau
+- Ce bonus de chargement **ne semble pas s'appliquer aux commandes spéciales** (tests en jeu jusqu'à présent), donc SO sur Opportunity gaspille le principal avantage du vaisseau
 - Le jeu propose **3 fenêtres GC par jour** — chaque exécution dure **~11 à 13 heures**
 - Une seule analyse GC peut occuper la majeure partie d'une journée d'éveil. Ne présumez pas que vous pouvez enchaîner trois analyses complètes en 24 heures.
 - **Planifiez sur un horizon de 48 heures** — de manière réaliste **~1 à 2 courses terminées par jour**, **~3 à 4 sur 48 heures** si vous récupérez à temps
 - Le travail de l'opportunité est **la disponibilité maximale du GC**, et non un débit sur commande spéciale
+
+#### Pourquoi GC uniquement ?
+
+L'opportunité a un **bonus de charge** lié à la quantité de marchandises que le navire transporte lors d'un trajet. Sur les routes Galactic Coin, ce bonus augmente considérablement les gains – la norme de guilde est donc **GC uniquement, toujours**, pour empiler le bonus de charge à chaque course.
+
+Les commandes spéciales sur Opportunity représentent une double perte : vous manquez le bonus de chargement GC sur le navire construit pour cela, et **le bonus de chargement ne semble pas augmenter les récompenses des commandes spéciales** de toute façon. Passez des commandes spéciales sur Dem ; garder Opportunity sur GC.
+
+*Si un correctif modifie la façon dont le bonus de chargement interagit avec les commandes spéciales, mettez à jour ce document.*
 
 ### Demerzal — Commandes spéciales, puis pièce galactique
 
@@ -217,7 +227,7 @@ Si Dem exécute GC pendant la nuit, Opportunity devrait ** déjà être sur GC *
 
 | Erreur | Corriger |
 |---------|-----|
-| Commandes spéciales sur Opportunité | Déplacez tous les SO vers Dem ; Opp = GC uniquement |
+| Commandes spéciales sur Opportunité | Déplacez tous les SO vers Dem — Le bonus de charge Opp est pour **GC** et ne semble pas aider SO |
 | Ils sont inactifs du jour au lendemain sans GC | Démarrez GC (~ 11-13h) avant de dormir |
 | 3 exécutions complètes de GC attendues en une journée | Les courses durent **11-13h** — en réalité **1-2/jour**, **~3-4/48h** |
 | Les exécutions GC supposées durent environ 8 à 10 heures | Les fenêtres sont de **11 à 13h** — replanification sur un horizon de 48h |
@@ -231,7 +241,7 @@ Si Dem exécute GC pendant la nuit, Opportunity devrait ** déjà être sur GC *
 
 | Navire | Rôle | Modèle |
 |------|------|--------------|
-| **Opportunité** | Spécialiste GC | Galactic Coin **uniquement** — **~11 à 13 h de courses**, **~1 à 2/jour**, planifiez **48 h** (~3 à 4 courses) |
+| **Opportunité** | Spécialiste GC | Pièce Galactique **uniquement** — **bonus de chargement sur GC** ; DONC ne semble pas en bénéficier |
 | **Démerzal** | SO + GC flexibles | 4× commandes spéciales (12-16 h) → GC (~11-13h) ; ou GC pendant le sommeil |
 
 ---

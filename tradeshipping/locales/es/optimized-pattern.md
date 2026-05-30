@@ -13,10 +13,20 @@ Estándar del gremio para envíos comerciales **Oportunidad** y **Demerzal (Dem)
 **La oportunidad solo debería ejecutar Galactic Coin (GC).**
 
 - No asignar pedidos especiales a Opportunity
+- **La bonificación de carga de la oportunidad favorece a GC**: ejecutar Galactic Coin exclusivamente es la forma preferida de usar esta nave
+- Esa bonificación de carga **no parece aplicarse a pedidos especiales** (pruebas en el juego hasta ahora), por lo que SO en Opportunity desperdicia la principal ventaja del barco.
 - El juego ofrece **3 ventanas de GC por día**; cada ejecución dura **~11 a 13 horas**
 - Una sola carrera de GC puede ocupar la mayor parte de un día de vigilia; no asumas que puedes encadenar tres carreras completas en 24 horas
 - **Planifique en un horizonte de 48 horas**: de manera realista, **~1 o 2 ejecuciones completadas por día**, **~3 a 4 en 48 horas** si recoge a tiempo
 - El trabajo de Opportunity es **tiempo de actividad máximo de GC**, no rendimiento de pedidos especiales
+
+#### ¿Por qué solo GC?
+
+Opportunity tiene una **bonificación de carga** ligada a la cantidad de carga que transporta el barco en un recorrido. En las rutas de Galactic Coin, esa bonificación aumenta significativamente el pago, por lo que el estándar del gremio es **solo GC, siempre**, para acumular bonificación de carga en cada carrera.
+
+Los pedidos especiales en Opportunity son una doble pérdida: pierdes el bono de carga GC en el barco construido para él, y **el bono de carga no parece aumentar las recompensas de pedidos especiales** de todos modos. Poner órdenes especiales a los demócratas; mantenga Opportunity en GC.
+
+*Si un parche cambia la forma en que la bonificación de carga interactúa con los pedidos especiales, actualice este documento.*
 
 ### Demerzal — Pedidos especiales, luego Galactic Coin
 
@@ -217,7 +227,7 @@ Si Dem ejecuta GC durante la noche, Opportunity **ya debería estar en GC** o in
 
 | Error | Arreglar |
 |---------|-----|
-| Pedidos especiales en Oportunidad | Mover todo SO a Dem; Opp = sólo GC |
+| Pedidos especiales en Oportunidad | Mover todo SO a Dem: la bonificación de carga de Opp es para **GC** y no parece ayudar a SO |
 | Dem inactivo durante la noche sin GC | Inicie GC (~11–13 h) antes de dormir |
 | Se esperan 3 carreras completas de GC en un día | Las carreras son **11–13h**; en realidad, **1–2/día**, **~3–4/48h** |
 | Las ejecuciones de GC supuestas son de ~8 a 10 h | Las ventanas son **de 11 a 13 h**: vuelva a planificar en un horizonte de 48 h |
@@ -231,7 +241,7 @@ Si Dem ejecuta GC durante la noche, Opportunity **ya debería estar en GC** o in
 
 | Barco | Rol | Patrón |
 |------|------|---------|
-| **Oportunidad** | Especialista en GC | Galactic Coin **solo** — **~11–13 h de ejecución**, **~1–2/día**, plan **48 h** (~3–4 ejecuciones) |
+| **Oportunidad** | Especialista en GC | Moneda Galáctica **solo** — **bonificación de carga en GC**; Así que no parece beneficiarse |
 | **Demerzal** | SO + GC flexible | 4× pedidos especiales (12–16 h) → GC (~11–13 h); o GC mientras duermes |
 
 ---

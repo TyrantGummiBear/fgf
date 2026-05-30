@@ -1,33 +1,39 @@
-> **Machine translation (fr).** English source: [vaults.md](../../vaults.md). Report fixes in guild chat or a GitHub issue.
+> **Traduction automatique (fr).** Source anglaise : [vaults.md](../../vaults.md).
 
-# Coffres et gardiens
+# Coffres & gardiens
 
-Comment fonctionne la carte ShadowFront : ce pour quoi nous nous battons et ce qui se passe après une capture.
+Comment fonctionne la carte ShadowFront — ce pour quoi nous combattons, et ce qui se passe après une capture.
 
-Voir aussi : [Combattez dans le cercle](fight-on-the-point.md) · [Points bonus](bonus-points.md)
+Voir aussi : [Combattre dans le cercle](fight-on-the-point.md) · [Points bonus](bonus-points.md)
 
 ---
 
 ## Disposition de la carte
 
-ShadowFront a **10 coffres** sur le champ de bataille :
+ShadowFront a **10 coffres** sur le champ de bataille :
 
-| Tapez | Comte | Placement |
-|------|-------|---------------|
+| Type | Nombre | Placement |
+|------|--------|-----------|
 | **Petits coffres** | 8 | **2 par quadrant** — répartis sur les quatre quadrants de la carte |
-| **Grands coffres** | 2 | Objectifs majeurs (valeur plus élevée – voir notation ci-dessous) |```
+| **Grands coffres** | 2 | Objectifs majeurs (valeur plus élevée — voir score ci-dessous) |
+
+```
         [Q1: 2 small]     |     [Q2: 2 small]
     ──────────────────────┼──────────────────────
               [ LARGE ]   |   [ LARGE ]
     ──────────────────────┼──────────────────────
         [Q3: 2 small]     |     [Q4: 2 small]
-```**Conseil du coordinateur :** Nommez les coffres par quadrant + taille dans les communications (par exemple *"Empiler Q1 petit nord"*, *"Rotation vers grand est"*) jusqu'à ce que la guilde se décide sur des légendes fixes.
+```
+
+**Conseil coordinateur :** Nommer les coffres par quadrant + taille en comms (ex. *"Stack Q1 small north"*, *"Rotate to large east"*) jusqu'à ce que la guilde fixe des callouts permanents.
 
 ---
 
 ## Cycle de capture
 
-Chaque coffre suit la même boucle :```
+Chaque coffre suit la même boucle :
+
+```
 1. CONTESTED  →  fight in capture circle (most numbers wins)
         ↓
 2. CAPTURED   →  one team completes the countdown
@@ -37,84 +43,90 @@ Chaque coffre suit la même boucle :```
 4. LOCKED     →  capture is DISABLED until the guardian is killed
         ↓
 5. CONTESTED  →  guardian dead → circle opens again
-```### Gardien du coffre-fort
+```
 
-Après une **capture réussie**, un **Vault Guardian** apparaît pour l'équipe qui a pris le coffre-fort.
+### Gardien du coffre
 
-- Le gardien **appartient à l'équipe détentrice** — il défend leur capture
-- **La capture ne peut pas reprendre** tant que le gardien n'est **tué**
-- Pour retourner un coffre-fort, les ennemis doivent : **tuer le gardien → gagner un combat numéroté en cercle → terminer une nouvelle capture**
+Après une **capture réussie**, un **gardien du coffre** apparaît pour l'équipe qui a pris le coffre.
 
-C'est pourquoi nous ne combattons pas seulement les joueurs — voir la priorité des gardiens/tours dans [Combattez dans le cercle](fight-on-the-point.md).
+- Le gardien **appartient à l'équipe qui tient** — il défend leur capture
+- **La capture ne peut pas reprendre** tant que le gardien n'est **pas tué**
+- Pour flip un coffre, les ennemis doivent : **tuer le gardien → gagner le combat de nombres dans le cercle → compléter la nouvelle capture**
 
-| Phases | Notre objectif si nous **tenons** | Notre objectif si nous **attaquons** |
-|-------|------------------------------|-------------------------------|
-| Gardien | Protégez-le ; points d'arrêt agricoles | Tuez d'abord le gardien, puis participez au cercle |
-| Gardien vers le bas | Re-capturez avant qu'ils ne se retournent | Gagnez des numéros en cercle, terminez la capture |
+C'est pourquoi nous ne combattons pas que les joueurs — voir la priorité gardien / tour dans [Combattre dans le cercle](fight-on-the-point.md).
 
-**Appel :** **"Guardian [vault]"** ou **"Tower [vault]"** — tuez ou défendez le gardien (même objectif).
+| Phase | Notre objectif si nous **tenons** | Notre objectif si nous **attaquons** |
+|-------|-----------------------------------|--------------------------------------|
+| Gardien up | Le protéger ; farmer les points de maintien | Tuer le gardien d'abord, puis contester le cercle |
+| Gardien down | Recapturer avant qu'ils flip | Gagner les nombres dans le cercle, finir la capture |
+
+**Call :** **"Guardian [vault]"** ou **"Tower [vault]"** — tuer ou défendre le gardien (même objectif).
 
 ---
 
-## Points d'attente (marquage)
+## Points de maintien (score)
 
-Les points s'accumulent pendant que votre guilde **détient** un coffre-fort capturé (gardien vivant, votre équipe aux commandes). **Les grands coffres paient plus par temps de maintien que les petits coffres** : donnez-leur la priorité lors de la coordination des piles et des rotations.
+Les points s'accumulent pendant que votre guilde **tient** un coffre capturé (gardien vivant, votre équipe en contrôle). **Les grands coffres rapportent plus par temps de maintien que les petits** — les prioriser lors de la coordination des stacks et rotations.
 
-> **Valeurs en points : vérifiez dans le jeu.** Les taux de temps d'attente exacts ne sont pas publiés dans les guides communautaires que nous avons vérifiés. Remplissez le tableau ci-dessous à partir de **l'interface utilisateur de l'événement** lors de votre prochain match (appuyez sur Vault → taux de maintien/points par intervalle).
+> **Valeurs des points — vérifier en jeu.** Les taux exacts de maintien ne sont pas publiés dans les guides communautaires consultés. Remplir le tableau ci-dessous depuis l'**UI de l'événement** lors de votre prochain match (tap coffre → taux de maintien / points par intervalle).
 
-| Type de coffre-fort | Comte | Points par prise (à déterminer) | Remarques |
-|------------|-------|--------------|-------|
-| **Petit coffre-fort** | 8 | _enregistrement depuis l'interface utilisateur_ | 2 par quadrant ; bon pour les points d'ancrage et les fenêtres bonus |
-| **Grand coffre-fort** | 2 | _enregistrement depuis l'interface utilisateur_ | Paiement plus élevé – vaut généralement des stacks plus lourds |
+| Type de coffre | Nombre | Points par maintien (TBD) | Notes |
+|----------------|--------|---------------------------|-------|
+| **Petit coffre** | 8 | _record from UI_ | 2 par quadrant ; bons pour les footholds et fenêtres bonus |
+| **Grand coffre** | 2 | _record from UI_ | Paiement plus élevé — vaut généralement des stacks plus lourds |
 
-### Comment enregistrer les valeurs (une correspondance)
+### Comment enregistrer les valeurs (un match)
 
-1. Ouvrez les détails du score/du coffre-fort ShadowFront dans l'interface utilisateur de l'événement.
-2. Notez les **points par tick** (ou par minute) pour un **petit** et un **grand** coffre-fort
-3. Mettez à jour ce tableau — le coordinateur l'utilise pour les appels prioritaires en fin de partie
+1. Ouvrir le score ShadowFront / détail coffre dans l'UI de l'événement
+2. Noter **points par tick** (ou par minute) pour un coffre **petit** et un **grand**
+3. Mettre à jour ce tableau — le coordinateur l'utilise pour les calls de priorité fin de partie
 
-**Jusqu'à ce que ce soit rempli :** supposez **grand > petit** pour la priorité de rotation ; confirmer les numéros après la première correspondance documentée.
+**Jusqu'à remplissage :** supposer **grand > petit** pour la priorité de rotation ; confirmer les chiffres après le premier match documenté.
 
 ---
 
 ## Implications stratégiques
 
 ### Petits coffres (8)
-- Rapide à contester ; bon pour les **premiers points d'ancrage** et les fenêtres **points bonus**
-- Répartis sur les quadrants : n'essayez pas de conserver les 8 ; choisir la maison + les cibles d'attaque
-- Plus facile de tourner entre deux dans le même quadrant
+- Rapides à contester ; bons pour les **footholds précoces** et les fenêtres de **points bonus**
+- Répartis sur les quadrants — ne pas essayer de tenir les 8 ; choisir base + cibles d'attaque
+- Plus facile de rotate entre deux dans le même quadrant
 
 ### Grands coffres (2)
 - **Valeur de maintien plus élevée** — souvent la condition de victoire en fin de partie
-- Attendez-vous à des piles d'ennemis plus lourdes ; engagez des nombres, pas des baleines solitaires
-- Les tueries de gardiens ici ont un impact élevé - retourner ou refuser peut faire basculer le classement
+- Attendre des stacks ennemis plus lourds ; engager des nombres, pas des baleines solo
+- Les kills de gardien ici ont un fort impact — flip ou deny peuvent basculer le classement
 
 ### Gardien + cercle ensemble
-- **Impossible de capturer avec le gardien relevé** — le tuer est la première étape de tout flip
-- Ne brûlez pas le gardien lorsque **vous êtes en infériorité numérique dans le cercle** — ils le reprendront quand il tombera ([Combattez dans le cercle](fight-on-the-point.md))
-- **Exception :** gros entrant sur le gardien → **"Gardien d'abord"** / **"Tour d'abord"**
+- **Impossible de capturer avec le gardien up** — le tuer est l'étape un pour tout flip
+- Ne pas brûler le gardien **en infériorité numérique dans le cercle** — ils recaptureront quand il tombe ([Combattre dans le cercle](fight-on-the-point.md))
+- **Exception :** grosse pression entrante sur le gardien → **"Guardian first"** / **"Tower first"**
 
 ---
 
-## Priorité du coordinateur (rapide)```
+## Priorité coordinateur (rapide)
+
+```
 Early   → 1 small vault foothold per squad (numbers in circle)
 Mid     → Bonus windows on best-value vault we can win
 Late    → Large vault hold OR deny enemy large + protect ours
 Flip    → Kill guardian → win circle count → finish capture
 Deny    → Break bonus when we can't win full flip ([Bonus Points](bonus-points.md))
-```---
-
-## Légendes associées
-
-| Appeler | Signification |
-|------|--------------|
-| **"Gardien [coffre-fort]"** | Concentrez le gardien du coffre-fort |
-| **"Gardien d'abord [coffre-fort]"** | Tuer le gardien avant le combat en cercle |
-| **"Gardien en bas [coffre-fort]"** | Capturez ouvert — empilez le cercle maintenant |
-| **"Tenir grand"** | Priorité aux grands points d'arrêt des coffres-forts |
-
-Liste complète : [Communication](communication.md)
+```
 
 ---
 
-*Dernière mise à jour : mai 2026 — tableau des scores en attente de vérification dans le jeu.*
+## Callouts associés
+
+| Call | Signification |
+|------|-------------|
+| **"Guardian [vault]"** | Focus le gardien du coffre |
+| **"Guardian first [vault]"** | Tuer le gardien avant le combat de cercle |
+| **"Guardian down [vault]"** | Capture ouverte — stack le cercle maintenant |
+| **"Hold large"** | Priorité sur les points de maintien du grand coffre |
+
+Liste complète : [Communication](communication.md)
+
+---
+
+*Dernière mise à jour : mai 2026 — tableau de score en attente de vérification en jeu.*

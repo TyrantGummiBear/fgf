@@ -11,10 +11,20 @@ Guild standard for **Opportunity** and **Demerzal (Dem)** trade shipping.
 **Opportunity should only ever run Galactic Coin (GC).**
 
 - Do not assign special orders to Opportunity
+- **Opportunity’s load bonus favors GC** — running Galactic Coin exclusively is the preferred way to use this ship
+- That load bonus **does not appear to apply to special orders** (in-game testing so far), so SO on Opportunity wastes the ship’s main advantage
 - The game offers **3 GC windows per day** — each run lasts **~11–13 hours**
 - A single GC run can fill most of a waking day — don't assume you can chain three full runs in 24h
 - **Plan on a 48-hour horizon** — realistically **~1–2 completed runs per day**, **~3–4 over 48h** if you collect on time
 - Opportunity's job is **maximum GC uptime**, not special-order throughput
+
+#### Why GC only?
+
+Opportunity has a **load bonus** tied to how much cargo the ship carries on a run. On Galactic Coin routes, that bonus meaningfully increases payout — so the guild standard is **GC only, always**, to stack load bonus on every run.
+
+Special orders on Opportunity are a double loss: you miss the GC load bonus on the ship built for it, and **the load bonus doesn’t seem to boost special-order rewards** anyway. Put special orders on Dem; keep Opportunity on GC.
+
+*If a patch changes how load bonus interacts with special orders, update this doc.*
 
 ### Demerzal — Special orders, then Galactic Coin
 
@@ -215,7 +225,7 @@ If Dem is running GC overnight, Opportunity should **already be on GC** or start
 
 | Mistake | Fix |
 |---------|-----|
-| Special orders on Opportunity | Move all SO to Dem; Opp = GC only |
+| Special orders on Opportunity | Move all SO to Dem — Opp load bonus is for **GC**, and doesn’t seem to help SO |
 | Dem idle overnight with no GC | Start GC (~11–13h) before sleep |
 | Expected 3 full GC runs in one day | Runs are **11–13h** — realistically **1–2/day**, **~3–4/48h** |
 | Assumed GC runs are ~8–10h | Windows are **11–13h** — replan on a 48h horizon |
@@ -229,7 +239,7 @@ If Dem is running GC overnight, Opportunity should **already be on GC** or start
 
 | Ship | Role | Pattern |
 |------|------|---------|
-| **Opportunity** | GC specialist | Galactic Coin **only** — **~11–13h runs**, **~1–2/day**, plan **48h** (~3–4 runs) |
+| **Opportunity** | GC specialist | Galactic Coin **only** — **load bonus on GC**; SO don’t appear to benefit |
 | **Demerzal** | SO + GC flex | 4× special orders (12–16 hr) → GC (~11–13h); or GC while sleeping |
 
 ---

@@ -20,7 +20,7 @@ Fundación: Optimización de la ruta comercial de la Frontera Galáctica para la
 
 | Barco | Patrón |
 |------|---------|
-| **Oportunidad** | Galactic Coin **solo** — **~11–13 h de ejecución**, plan **48 h** (~1–2/día, ~3–4/48 h) |
+| **Oportunidad** | Galactic Coin **solo** — **el bono de carga favorece GC** (~11–13 h de ejecución, plan **48 h**) |
 | **Demerzal (demócrata)** | 4× pedidos especiales en ventana activa → Galactic Coin (o GC sin conexión/durmiendo) |
 
 ---

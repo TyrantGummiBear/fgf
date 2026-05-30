@@ -20,7 +20,7 @@ Fundação: Otimização da rota comercial da Fronteira Galáctica para naves em
 
 | Navio | Padrão |
 |------|---------|
-| **Oportunidade** | Moeda Galáctica **apenas** — **~11–13h de execução**, plano **48h** (~1–2/dia, ~3–4/48h) |
+| **Oportunidade** | Galactic Coin **apenas** — **carregar bônus favorece GC** (~11–13h de execução, plano **48h**) |
 | **Demerzal (Dem)** | 4× pedidos especiais na janela ativa → Moeda Galáctica (ou GC enquanto estiver offline/dormindo) |
 
 ---

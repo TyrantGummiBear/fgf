@@ -42,4 +42,6 @@ Capture is a **numbers game**. Stack the circle, remove enemies inside it, and h
 
 ---
 
+**Other guild guides:** [General PvP](../pvp/README.md) (open fights, whales) · [Trade Shipping](../tradeshipping/README.md)
+
 *Full legacy doc: [shadowfront-tactics.md](shadowfront-tactics.md)*

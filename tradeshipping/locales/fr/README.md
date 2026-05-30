@@ -20,7 +20,7 @@ Fondation : Optimisation de la route commerciale de la Frontière Galactique p
 
 | Navire | Modèle |
 |------|--------------|
-| **Opportunité** | Galactic Coin **uniquement** — **~11-13h de courses**, plan **48h** (~1-2/jour, ~3-4/48h) |
+| **Opportunité** | Galactic Coin **uniquement** — **le bonus de chargement favorise le GC** (~11-13h de courses, plan **48h**) |
 | **Démerzal (Dem)** | 4× commandes spéciales dans la fenêtre active → Galactic Coin (ou GC en mode hors ligne/en veille) |
 
 ---
